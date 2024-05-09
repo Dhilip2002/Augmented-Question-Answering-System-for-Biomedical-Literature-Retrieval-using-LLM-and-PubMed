@@ -1,3 +1,4 @@
+#Importing Libraries
 import streamlit as st
 import pyrebase
 from typing import List
@@ -56,7 +57,6 @@ class PubMedFetcher():
 
 pubmed = PubMed(tool="Haystack2.0Prototype", email="dummyemail@gmail.com")
 
-
 def ask(question):
     # Fetch articles related to the question
     fetcher = PubMedFetcher()
@@ -84,7 +84,6 @@ def ask(question):
             formatted_response += part + "\n\n"
     
     return formatted_response.strip()
-
 
 # Firebase configuration
 firebase_config = {
