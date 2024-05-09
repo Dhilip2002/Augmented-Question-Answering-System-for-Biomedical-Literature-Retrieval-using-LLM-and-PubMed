@@ -1,0 +1,12 @@
+streamlit
+Pyrebase4
+transformers
+huggingface_hub
+pydantic
+haystack-ai
+pymed
+python-dotenv
+pycryptodome
+torch
+bitsandbytes 
+accelerate
