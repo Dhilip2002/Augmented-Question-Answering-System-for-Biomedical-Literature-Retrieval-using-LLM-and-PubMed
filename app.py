@@ -14,7 +14,7 @@ from transformers import AutoTokenizer, AutoModelForCausalLM, BitsAndBytesConfig
 import subprocess
 
 # Insert the line to save the Hugging Face API token
-subprocess.run(["python", "-c", "from huggingface_hub.hf_api import HfFolder; HfFolder.save_token('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')"], check=True)
+subprocess.run(["python", "-c", "from huggingface_hub.hf_api import HfFolder; HfFolder.save_token('YOUR_HUGGINGFACEHUB_TOKEN')"], check=True)
 
 # Set Streamlit page config
 st.set_page_config(page_title="Biomedical Q&A with LLM", page_icon="🧬", layout="wide")
@@ -88,13 +88,13 @@ def ask(question):
 
 # Firebase configuration
 firebase_config = {
-"apiKey": "AIzaSyBFHP15ZoE7U7SkOzV0xNatIRoF0cV_VcA",
-"authDomain": "project-test-7aeba.firebaseapp.com",
-"databaseURL": "https://project-test-7aeba-default-rtdb.asia-southeast1.firebasedatabase.app",
-"projectId": "project-test-7aeba",
-"storageBucket": "project-test-7aeba.appspot.com",
-"messagingSenderId": "422774618569",
-"appId": "1:422774618569:web:b87f6b929f17e79d011018"
+"apiKey": "FIREBBBASE_API_KEY",
+"authDomain": "FIREASE_AUTH_DOMAIN",
+"databaseURL": "FIREBBASE_DATABBBASE_URL",
+"projectId": "FIREBASE_PROJECT_ID",
+"storageBucket": "FIREBBBASE_STORAGE_BUCKET",
+"messagingSenderId": "FIREBASE_MESSAGING_SENDER_ID",
+"appId": "FIREBASE_APP_ID"
 }
 
 firebase = pyrebase.initialize_app(firebase_config)
