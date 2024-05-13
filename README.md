@@ -55,7 +55,6 @@ Before you can start using the face detection and recognition scripts, make sure
     python -m venv myenv
     
 2. ## Activate the Environment:
-
       * Depending on your operating system, use the appropriate command to activate the virtual environment:
   On Windows:
   ##
@@ -65,7 +64,6 @@ Before you can start using the face detection and recognition scripts, make sure
     source myenv/bin/activate
     
 3. ## Install Necessary Packages:
-
       * Once the virtual environment is activated, install the required packages using pip:
   ##
     pip install -r requirements.txt
