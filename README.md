@@ -71,3 +71,39 @@ Before you can start using the face detection and recognition scripts, make sure
     pip install -r requirements.txt
 
 ## Setting up the Database Folder
+Setting up the database folder is an essential step in ensuring the smooth functioning of the Biomedical Q&A with Language Models project. With Firebase integration in place, storing and managing responses becomes streamlined. Here's how you can set up the database folder:
+
+1. ## Firebase Configuration 
+   * Begin by configuring Firebase with the necessary credentials. 
+   * Ensure you have the API key, authentication domain, database URL, project ID, storage bucket, messaging sender ID, and app ID handy. 
+   * These details are vital for initializing Firebase and establishing a connection with the database.
+
+2. ## Initialize Firebase 
+   * Once you have the configuration parameters, initialize Firebase using the pyrebase library. 
+   * This step establishes a connection to the Firebase project, enabling interaction with the database.
+
+3. ## Access Authentication 
+   * If your project requires authentication for accessing the database, you can utilize Firebase's authentication functionality. 
+   * This ensures that only authorized users can perform operations like reading and writing data to the database.
+
+4. ## Database Interaction 
+   * With Firebase initialized, you can now interact with the database.
+   * In the provided code, a Firebase database instance (db) is created, allowing you to push responses to the database.
+   * Each response is stored as a new entry under the "responses" node, containing the question and corresponding answer.
+     
+## Running the Scripts
+Now that you've set up your environment and installed the necessary packages, you can run the app.py scripts.
+
+Run the script app.py to fetch responses from PubMed for users query and store it in Firebase.
+##
+      python app.py
+
+## Usage
+* app.py: To fetch responses from PubMed for users query and store it in Firebase.
+
+## License
+This project is licensed under the MIT License. You can find more details in the LICENSE file included in the repository.
+
+That's it! You're now ready to retrieve and store biomedical literatures using the provided scripts. If you have any questions or encounter any issues, feel free to reach out to the project maintainers. 
+Happy face detecting and recognizing!
+      
