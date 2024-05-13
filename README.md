@@ -6,8 +6,8 @@ The Biomedical Q&A with Language Models project is an innovative approach to acc
 ## Table of Contents
 1. [`Description`](#Description)
 2. [`Prerequisites`](#Prerequisites)
-3. ['Setting up the Environment'](#Setting up the Environment)
-4. ['Setting up the Database Folder'](#Setting up the Database Folder)
+3. ['Setting up the Environment'](#SettinguptheEnvironment)
+4. ['Setting up the Database Folder'](#SettinguptheDatabaseFolder)
 5. ['Running the Scripts'](#Running the Scripts)
 6. ['Usage'](#Usage)
 7. ['License'](#License)
