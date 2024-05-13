@@ -26,40 +26,35 @@ Before you can start using the face detection and recognition scripts, make sure
      Visual Studio along with the required workload for "Desktop Development with C++":
 
    ## Step 1: Download Visual Studio
-
       * Navigate to Visual Studio Downloads website.
       * Click on the "Download Visual Studio" button.
       * Follow the on-screen instructions to download the Visual Studio installer.
       * Once the installer is downloaded, run it.
-   
-  ## Step 2: Download and install the workload: "Desktop Development with C++"
-
+        
+##    Step 2: Download and install the workload: "Desktop Development with C++"
       * Open the Visual Studio Installer.
       * Select "Visual Studio C++ Build Tools" from the list of available products.
       * Click on "Install" to download and install the workload.
       * Follow the on-screen instructions to complete the installation.
       
-  ## Step 3: Customize Installation (Optional)
-
+##    Step 3: Customize Installation (Optional)
       * If you want to customize the installation or select additional components, you can do so by clicking on the "Individual components" tab.
       * Here, you can browse and select additional components based on your requirements.
       
-  ## Step 4: Install
-
+##    Step 4: Install
       * After selecting the desired workload and components, click on the "Install" button to begin the installation process.
       * Follow the on-screen instructions to complete the installation.
 
-## Setting up the Environment
+##   Setting up the Environment
     * To ensure a smooth running of the scripts, it's recommended to set up a Python virtual environment. Follow these steps to create the environment:
 
 1. ## Create a Python Environment:
-
       * Open your terminal or command prompt and navigate to your project directory.
       * Run the following command to create a virtual environment named myenv:
 ##
     python -m venv myenv
     
- 2. ## Activate the Environment:
+2. ## Activate the Environment:
 
       * Depending on your operating system, use the appropriate command to activate the virtual environment:
   On Windows:
