@@ -12,4 +12,4 @@ The Biomedical Q&A with Language Models project is an innovative approach to acc
 6.Usage
 7.License
 
-[Section `Features`](#feature)
+[Section `Features`]
