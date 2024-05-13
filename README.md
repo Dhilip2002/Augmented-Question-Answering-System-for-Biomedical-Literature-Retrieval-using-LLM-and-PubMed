@@ -92,9 +92,8 @@ Setting up the database folder is an essential step in ensuring the smooth funct
    * Each response is stored as a new entry under the "responses" node, containing the question and corresponding answer.
      
 ## Running the Scripts
-Now that you've set up your environment and installed the necessary packages, you can run the app.py scripts.
-
-Run the script app.py to fetch responses from PubMed for users query and store it in Firebase.
+* Now that you've set up your environment and installed the necessary packages, you can run the app.py scripts.
+* Run the script app.py to fetch responses from PubMed for users query and store it in Firebase.
 ##
       python app.py
 
@@ -106,4 +105,3 @@ This project is licensed under the MIT License. You can find more details in the
 
 That's it! You're now ready to retrieve and store biomedical literatures using the provided scripts. If you have any questions or encounter any issues, feel free to reach out to the project maintainers. 
 Happy face detecting and recognizing!
-      
