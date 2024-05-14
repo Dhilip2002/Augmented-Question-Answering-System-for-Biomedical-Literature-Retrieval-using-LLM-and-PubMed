@@ -49,6 +49,8 @@ Before you can start using the face detection and recognition scripts, make sure
    * To ensure a smooth running of the scripts, it's recommended to set up a Python virtual environment. Follow these steps to create the environment:
 
 1. ## Clone the Github Repository
+      * Open your terminal or command prompt
+      * Run the following command to download the folder
 ##
       git clone https://github.com/Dhilip2002/Augmented-Question-Answering-System-for-Biomedical-Literature-Retrieval-using-LLM-and-PubMed.git
    
