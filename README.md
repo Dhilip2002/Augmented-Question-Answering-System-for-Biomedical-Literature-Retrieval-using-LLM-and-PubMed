@@ -45,7 +45,7 @@ Before you can start using the face detection and recognition scripts, make sure
       * After selecting the desired workload and components, click on the "Install" button to begin the installation process.
       * Follow the on-screen instructions to complete the installation.
 
-   ## Setting up the Environment
+## Setting up the Environment
     * To ensure a smooth running of the scripts, it's recommended to set up a Python virtual environment. Follow these steps to create the environment:
 
 1. ## Create a Python Environment:
