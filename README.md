@@ -48,13 +48,17 @@ Before you can start using the face detection and recognition scripts, make sure
 ## Setting up the Environment
    * To ensure a smooth running of the scripts, it's recommended to set up a Python virtual environment. Follow these steps to create the environment:
 
-1. ## Create a Python Environment:
+1. ## Clone the Github Repository
+##
+      git clone https://github.com/Dhilip2002/Augmented-Question-Answering-System-for-Biomedical-Literature-Retrieval-using-LLM-and-PubMed.git
+   
+2. ## Create a Python Environment
       * Open your terminal or command prompt and navigate to your project directory.
       * Run the following command to create a virtual environment named myenv:
 ##
     python -m venv myenv
     
-2. ## Activate the Environment:
+3. ## Activate the Environment
       * Depending on your operating system, use the appropriate command to activate the virtual environment:
   On Windows:
   ##
@@ -63,7 +67,7 @@ Before you can start using the face detection and recognition scripts, make sure
   ##
     source myenv/bin/activate
     
-3. ## Install Necessary Packages:
+4. ## Install Necessary Packages
       * Once the virtual environment is activated, install the required packages using pip:
   ##
     pip install -r requirements.txt
@@ -102,4 +106,5 @@ Setting up the database folder is an essential step in ensuring the smooth funct
 This project is licensed under the MIT License. You can find more details in the LICENSE file included in the repository.
 
 That's it! You're now ready to retrieve and store biomedical literatures using the provided scripts. If you have any questions or encounter any issues, feel free to reach out to the project maintainers. 
-Happy face detecting and recognizing!
+
+Happy literature retrieving and viewing!
