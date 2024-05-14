@@ -46,7 +46,7 @@ Before you can start using the face detection and recognition scripts, make sure
       * Follow the on-screen instructions to complete the installation.
 
 ## Setting up the Environment
-    * To ensure a smooth running of the scripts, it's recommended to set up a Python virtual environment. Follow these steps to create the environment:
+   * To ensure a smooth running of the scripts, it's recommended to set up a Python virtual environment. Follow these steps to create the environment:
 
 1. ## Create a Python Environment:
       * Open your terminal or command prompt and navigate to your project directory.
